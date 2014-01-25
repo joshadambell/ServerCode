@@ -1,4 +1,4 @@
-package buildMap.processImage;
+package com.localsense.map.support;
 
 public class Label {
 

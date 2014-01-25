@@ -1,4 +1,4 @@
-package buildMap;
+package com.localsense.map.support;
 
 public class Tuple<X,Y> {
 	

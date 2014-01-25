@@ -1,6 +1,4 @@
-package buildMap.processImage;
-
-import buildMap.*;
+package com.localsense.map.support;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,8 +8,10 @@ import java.awt.Color;
 import java.awt.Point;
 import java.awt.image.BufferedImage;
 
+import com.localsense.map.api.*;
 
-public class CCL implements ConnectedComponentLabelingApi
+
+public class CCLImpl implements CCL
 {
         private int[][] _board;
         private BufferedImage _input;

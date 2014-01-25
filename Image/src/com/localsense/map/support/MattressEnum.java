@@ -1,4 +1,4 @@
-package buildMap.scaleMap;
+package com.localsense.map.support;
 
 /**
  * Created by joshbell on 1/6/14.

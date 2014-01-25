@@ -1,7 +1,9 @@
-package buildMap.scaleMap;
+package com.localsense.map.support;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import com.localsense.map.api.BuildMap;
 
 /**
  * Created by joshbell on 1/6/14.
@@ -10,7 +12,7 @@ import java.util.Map;
 // Whether I get the information the user entering it in the website or
 // from processing an image, what is the info I want. Each of the dimensions
 // an arrayList<Integer> of the dimensions
-public class Convert implements BuildWebMapApi
+public class BuildMapImpl implements BuildMap
 {
     // default 500 pixel width
     private Integer _percentageChange = null;
