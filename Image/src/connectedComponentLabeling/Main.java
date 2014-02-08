@@ -15,10 +15,9 @@ public class Main
 	
 	public static void main(String[] args) throws IOException 
 	{
-		String savePath = "/Users/joshbell/Desktop/Image stuff/";
+		String savePath = "/Users/joshbell/Desktop/";
 		BufferedImage input = ImageIO.read(new File(savePath + "square.png"));
 		Map<Integer, BufferedImage> finalMap = new HashMap<Integer, BufferedImage>();
-		
 		
 		CCL ccl = new CCL();
 			
